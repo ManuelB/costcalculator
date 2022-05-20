@@ -45,7 +45,7 @@
             <Toolbar id="toolbar1">
                 <ToolbarSpacer id="space1" />
                 <ToolbarSpacer id="spacer2" />
-                <Button id="button1" type="Accept" press="Tariff wählen und ummelden" />
+                <Button id="button1" type="Accept" text="Tariff wählen und ummelden" press="onTariffWaehlen" />
             </Toolbar>
         </footer>
     </Page>

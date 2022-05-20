@@ -49,6 +49,9 @@ sap.ui.define([
                 
                 const formattedPreis = oFormat.format((strompreis.basispreisProJahr+(strompreis.arbeitspreisProKwH*vebrauchProJahr)));
                 this.byId("preis").setText(formattedPreis+" €");
+            },
+            onTariffWaehlen: function() {
+                window.location.href = "http://www.google.de";
             }
         });
     });
